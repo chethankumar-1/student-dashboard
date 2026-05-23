@@ -73,6 +73,14 @@ It provides:
 
 ## 📡 API Documentation
 
+
+## 🔑 Demo Credentials
+
+### 👨‍🎓 Student Login
+Username: student1  
+Password: student123
+
+
 ### 🔐 Authentication
 
 #### Login
