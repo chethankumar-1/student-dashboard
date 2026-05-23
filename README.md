@@ -21,7 +21,7 @@ It provides:
 ## ✨ Features
 
 ### 🔐 Authentication
-- Email-based login system (JWT authentication)
+- JWT Authentication (Username & Password)
 - Secure token-based access
 - Role-based access control (Student / Mentor)
 
