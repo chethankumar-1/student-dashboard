@@ -73,6 +73,11 @@ It provides:
 
 ## 📡 API Documentation
 
+Base URL:
+
+```bash
+http://127.0.0.1:8000/api/
+
 
 ## 🔑 Demo Credentials
 
