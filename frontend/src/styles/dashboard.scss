@@ -1,0 +1,120 @@
+.dashboard {
+
+  min-height: 100vh;
+
+  background: #f1f5f9;
+}
+
+.navbar {
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+  button {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+
+  background: white;
+
+  width: 250px;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0px 5px 20px rgba(0,0,0,0.1);
+    margin: 12px;
+
+  h2 {
+
+    color: gray;
+  }
+
+  h1 {
+
+    margin-top: 10px;
+
+    color: #0f172a;
+  }
+}
+
+.charts {
+
+  display: flex;
+
+  gap: 20px;
+
+  padding: 20px;
+
+  flex-wrap: wrap;
+}
+
+.chart-box {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.recommendation {
+
+  background: white;
+
+  margin: 20px;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0px 5px 20px rgba(0,0,0,0.1);
+}
+
+@media(max-width:768px) {
+
+  .cards,
+  .charts {
+
+    flex-direction: column;
+  }
+
+  .card,
+  .chart-box {
+
+    width: 100%;
+  }
+}
+.main-layout {
+
+  display: flex;
+}
+
+.dashboard-content {
+
+  flex: 1;
+}

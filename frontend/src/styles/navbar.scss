@@ -1,0 +1,30 @@
+.navbar {
+
+  background: #0f172a;
+
+  color: white;
+
+  padding: 20px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  h1 {
+
+    font-size: 24px;
+  }
+}
+
+@media(max-width: 768px) {
+
+  .navbar {
+
+    h1 {
+
+      font-size: 18px;
+    }
+  }
+}
